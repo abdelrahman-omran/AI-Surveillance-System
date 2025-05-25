@@ -130,13 +130,13 @@ Contributions are welcome! Please open issues and submit pull requests for bug f
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the Apache License 2.0  License. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## References
 
 * FaceNet: [https://arxiv.org/abs/1503.03832](https://arxiv.org/abs/1503.03832)
-* YOLOv11: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
-* OSNet: [https://arxiv.org/abs/1911.08279](https://arxiv.org/abs/1911.08279)
-* BoTSORT: [https://arxiv.org/abs/2207.14200](https://arxiv.org/abs/2207.14200)
+* YOLOv11: [https://docs.ultralytics.com/models/yolo11/](https://docs.ultralytics.com/models/yolo11/)
+* OSNet: [https://arxiv.org/abs/1905.00953](https://arxiv.org/abs/1905.00953)
+* BoTSORT: [https://arxiv.org/abs/2206.14651](https://arxiv.org/abs/2206.14651)
