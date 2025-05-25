@@ -1,6 +1,8 @@
 # AI Surveillance System
 
 An end-to-end AI surveillance system that tracks and identifies people in video streams. This project integrates face recognition, object detection, person re-identification, and multi-object tracking to deliver robust person tracking capabilities.
+## Output Sample
+![Demo](assets/output.gif)
 
 ---
 
