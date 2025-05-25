@@ -1,0 +1,9 @@
+opencv-python
+torch
+torchvision
+ultralytics
+boxmot
+facenet-pytorch
+pandas
+matplotlib
+Pillow
