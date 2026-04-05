@@ -85,32 +85,61 @@ An end-to-end AI surveillance system that tracks and identifies people in video 
 
 ---
 
-## Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/ai-surveillance-system.git
-   cd ai-surveillance-system
-   ```
-
-2. **Create a virtual environment**
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Download pre-trained weights**
-
-   * Place FaceNet, YOLOv11m, and OSNet weights in the `models/` directory.
-
+## How to Run
+ 
+### 1. Clone the repository
+ 
+```bash
+git clone https://github.com/abdelrahman-omran/AI-Surveillance-System.git
+cd AI-Surveillance-System
+```
+ 
+### 2. Create and activate a virtual environment
+ 
+```bash
+python -m venv venv
+source venv/bin/activate       # Linux/macOS
+venv\Scripts\activate          # Windows
+```
+ 
+### 3. Install dependencies
+ 
+```bash
+pip install -r requirements.txt
+```
+ 
+### 4. Download model weights
+ 
+Place your fine-tuned model weights in the appropriate directories:
+- YOLOv11m weights → `Object Detection/`
+- OSNet weights → `ReID Model/`
+- FaceNet weights → `Face Re-Identification/`
+ 
+### 5. Run the tracker
+ 
+```bash
+python Tracking/Tracking.py
+```
+ 
+### 6. Run face re-identification (optional, standalone)
+ 
+```bash
+python "Face Re-Identification/Face Re-Identification.py"
+```
+ 
+### 6. Train your own models (optional)
+ 
+Open and run the notebooks in Jupyter:
+ 
+```bash
+jupyter notebook
+```
+ 
+- `Object Detection/yolo-v11-training.ipynb` — fine-tune YOLOv11m
+- `ReID Model/reid-training-final.ipynb` — fine-tune OSNet
+- `Face Re-Identification/facenet-finetuning.py` — fine-tune FaceNet
+ 
+---
 ---
 
 ## Model Details
